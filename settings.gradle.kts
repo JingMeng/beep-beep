@@ -25,9 +25,10 @@ include(":design_system:shared")
 
 pluginManagement {
     repositories {
+        google()
+        mavenCentral()
         gradlePluginPortal()
         maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
-        google()
     }
 
     plugins {
